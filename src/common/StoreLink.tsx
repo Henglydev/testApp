@@ -9,7 +9,7 @@ function StoreLink({
   lowerText,
 }: ButtonLinkProps) {
   return (
-    <a href={href} className={className}>
+    <a href={href} className={className} target={target}>
       <img src={logo} alt={`${lowerText} logo`} className="w-5" />
       <div>
         <p className="text-xs">{upperText}</p>
